@@ -30,7 +30,7 @@ main_leisure.add(
 # Клавиатура для получения активности
 markup_get_activity = InlineKeyboardMarkup()
 markup_get_activity.add(
-    InlineKeyboardButton("🔍 Подобрать еще активность", callback_data="get_more_activity"),
+    InlineKeyboardButton("🔍 Подобрать еще активность", callback_data="at_home"),
     InlineKeyboardButton("🏠 Выйти в меню", callback_data="family"),
     row_width=1
 )
